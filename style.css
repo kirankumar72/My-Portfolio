@@ -1,0 +1,44 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#heading{
+    background-color: rgba(240, 239, 217, 0.445);
+    color: #fff;
+    border-radius: 10px;
+    padding: 8px;
+}
+.dm-serif-display-regular-italic {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  
+}
+
+.navbar-nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+.img-fluid{
+    border-radius: 20px;
+    object-fit: cover;
+    height :250px;
+     width :250px;
+}
+.btn-light:hover{
+   background-color: black;
+   color: #fff;
+   transition: 0.3s ease-in-out;
+}
+.img-hover-zoom{
+      transition: transform 0.3s ease;
+}
+.img-hover-zoom:hover {
+  transform: scale(1.05);
+}
+
